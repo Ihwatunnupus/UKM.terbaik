@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit Kerja Mahasiswa (UKM) ihtnnps</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+        <img src="Gallery/LOGO UNPAM.png" alt="UKM Logo" class="logo">
+    <h1>Unit Kegiatan Mahasiswa</h1>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile UKM</a></li>
+            <li><a href="#gallery">Gallery Kegiatan</a></li>
+            <li><a href="#registration">Pendaftaran</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="profile">
+    <h2>Profile UKM</h2>
+    <!-- Profile and photo of each UKM will be displayed here --> 
+    <h3>UNIVERSITAS PAMULANG </h3>
+    <img src="Gallery/poto.jpg" alt="UKM 1" class="profile-image">
+    <h4>VISI</h4>
+    <h5>Menjadi universitas peringkat 40 besar pada tingkat nasional yang dilandasi oleh nilai humanis dan religius pada tahun 2025</h5>
+    <h4>MISI</h4>
+    <h5>   Menyelenggarakan pendidikan akademik, vokasi, dan profesi yang profesional berbasis humanis dan religius.
+            Melaksanakan penelitian berbasis humanis dan religius yang menghasilkan inovasi untuk kesejahteraan masyarakat.
+     Melaksanakan pengabdian kepada masyarakat implementasi penelitian berbasis humanis dan religius.
+    Menyelenggarakan peningkatan kualitas sumber daya manusia yang kompeten dan profesional.
+    Menyelenggarakan kerja sama dalam negeri dan luar negeri berbasis saling menguntungkan.</h5>
+        <h4>TUJUAN</h4>
+        <h5>- Menghasilkan lulusan pendidikan akademik, vokasi, dan profesi yang profesional berbasis humanis dan religius
+            - Menghasilkan produk penelitian berbasis humanis dan religius yang inovatif untuk kesejahteraan masyarakat
+            - Terselenggaranya pengabdian kepada masyarakat implementasi penelitian berbasis humanis dan religius
+            - Terwujudnya peningkatan kualitas sumber daya manusia yang kompeten dan profesional
+            - Terselenggaranya kerja sama dalam negeri dan luar negeri berbasis saling menguntungkan</h5>
+            <h4> Unit Kegiatan Mahasiswa (UKM)</h4>
+           <h5>mempunyai tugas untuk merencanakan, melaksanakan, dan mengembangkan kegiatan ekstrakurikuler kemahasiswaan sesuai dengan tugas dan tanggung jawabnya. Tentunya UKM ini berada pada wilayah universitas yang sedang secara aktif mengembangkan sistem pengelolaan organisasi secara mandiri.</h5> 
+            <h4>KESENIAN TARI</h4>
+            <h5>Sebagai wadah bagi mahasiswa berbakat dan peminat seni tari dan musik, UKM Tari dan Karawitan membuka kesempatan untuk mengembangkan bakat seni mereka. Di UKM ini, mahasiswa dapat mempelajari berbagai tarian tradisional dari berbagai daerah di Indonesia seperti Jawa, Bali, Sumatera dan masih banyak lagi. Selain itu, mereka bisa belajar memainkan berbagai alat musik tradisional seperti gamelan, kenong, gong dll.</h5>
+            <h4>PANCAK SILAT</h4>
+            <h5>pencak silat yang saat ini kita kenal merupakan pengembangan dari bela diri alami dari nenek moyang kita. Begitupun nenek moyang Indonesia. Untuk keperluannya dalam menghadapi kondisi alam dan bertahan hidup, mereka mengambil inspirasi bela diri dari gerakan binatang yang ada di dekat mereka.</h5>
+            <h4>BASKET</h4>
+            <h5>Basket adalah salah satu cabang olahraga yang sangat populer di seluruh dunia, termasuk di Indonesia. Dalam artikel ini, kita akan membahas secara komprehensif tentang pengertian basket, sejarahnya, peraturan yang berlaku, teknik dasar yang harus dikuasai, dan manfaat yang bisa didapatkan dari bermain basket.</h5>
+            <h4>TENIS MEJA</h4>
+            <h5>Tenis meja adalah cabang olahraga yang dilakukan oleh dua orang pemain (tunggal) atau dua pasang pemain (ganda) secara berhadapan dengan menggunakan bola kecil, bet dari kayu yang dilapisi karet, dan lapangan permainan berupa meja.</h5>
+            <h4>FUTSAL</h4>
+            <h5>Olahraga futsal merupakan olahraga permainan yang mirip dengan sepakbola meskipun dilakukan di dalam ruangan. Beberapa pemain saling bekerjasama untuk memasukkan bola ke gawang yang dijaga seorang kiper. Ukuran bola lebih kecil, gawangnya juga lebih kecil.</h5>
+</section>
+
+<section id="gallery">
+    <h2>Gallery Kegiatan</h2>
+    <img src="Gallery/TARIAN.jpg" alt="Gambar 1" width="200" height="150">
+    <img src="Gallery/PANCAK SILAT.jpg" alt="Gambar 2"width="200" height="150">
+    <img src="Gallery/BASKET.jpg" alt="Gambar 3"width="200" height="150">
+    <img src="Gallery/TENIS MEJA.jpg" alt="Gambar 3"width="200" height="150">
+    <img src="Gallery/FUTSAL.jpg" alt="Gambar 3"width="200" height="150">
+    <!-- Gallery of activities (photos and videos) and descriptions -->
+</section>
+
+<section id="registration">
+    <h2>Pendaftaran</h2>
+    <form>
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required><br>
+
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br>
+
+        <label for="program_studi">Program Studi:</label>
+        <input type="text" id="program_studi" name="program_studi" required><br>
+
+        <label for="ukm">UKM yang akan diikuti:</label>
+        <select id="ukm" name="ukm" required>
+            <!-- Dropdown options for UKM -->
+            <option value="KESENIAN TARI">KESENIAN TARI</option>
+            <option value="PANCAK SILAT">PANCAK SILAT</option>
+            <option value="BASKET">BASKET</option>
+            <option value="TENIS MEJA">TENIS MEJA</option>
+            <option value="FUTSAL">FUTSAL</option>
+            <!-- Add more options as needed -->
+        </select><br>
+
+        <label>Pilihan hari kegiatan:</label><br>
+        <input type="checkbox" id="senin" name="hari" value="Senin">
+        <label for="senin">Senin</label><br>
+        <input type="checkbox" id="selasa" name="hari" value="Selasa">
+        <label for="selasa">Selasa</label><br>
+        <input type="checkbox" id="rabu" name="hari" value="Rabu">
+        <label for="rabu">Rabu</label><br>
+        <input type="checkbox" id="kamis" name="hari" value="Kamis">
+        <label for="kamis">Kamis</label><br>
+        <input type="checkbox" id="jumat" name="hari" value="Jumat">
+        <label for="jumat">Jumat</label><br>
+
+        <button type="submit">Simpan</button>
+        <button type="button">Batal</button>
+    </form>
+</section>
+
+<footer id="contact">
+    <h2>Informasi kontak</h2> <br>Nama: Ihwatun Nupus <br>Alamat:jl.Panongan mekarjaya no 54 <br> Email: Ihwatunnupus26@gmail.com <br> No. tlpn: 089612345678
+    <!-- Contact information for UKM -->
+    
+<p>Admin Web        <sup>&copy;</sup>    Ihwatun Nupus </p>
+</footer>
+
+</body>
+</html>

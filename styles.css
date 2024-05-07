@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+.logo {
+    width: 100px; /* Ukuran yang lebih kecil */
+    margin-right: 10px; /* Jarak antara logo dan teks */
+    margin-left: 10px; /* Jarak antara logo dan sisi kiri header */
+}
+.gallery {
+    width: 100px; /* Ukuran yang lebih kecil */
+    margin-right: 10px; /* Jarak antara logo dan teks */
+    margin-left: 10px; /* Jarak antara logo dan sisi kiri header */
+}
+
+.gallery img {
+    width: 100%; /* Membuat gambar mengisi lebar parent (kolom grid) */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan agar proporsi tidak terganggu */
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar parent */
+    max-height: 100%; /* Pastikan gambar tidak melebihi tinggi parent */
+    object-fit: cover; /* Menjaga proporsi asli gambar */
+}
